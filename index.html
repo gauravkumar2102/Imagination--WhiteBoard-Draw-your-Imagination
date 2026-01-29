@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Imagination</title>
+</head>
+
+<body>
+    <div class="paint" style="margin-top: 0px; padding:0px; background-color: rgb(49, 47, 47);">
+        <h1
+            style="margin-left:20px ; letter-spacing: 2px; text-transform: uppercase; color: rgb(157, 213, 14); text-align:center; font-size: 22px; ">
+            Imagination</h1>
+        <div class="option">
+            <ul>
+                <li id="listText"><i id="textBtn" class="fa-regular fa-keyboard"></i></li>
+                <li><i id="circleBtn" class="fa-regular fa-circle"></i></li>
+                <li id="arrowList"><i id="arrowBtn" class="fa-solid fa-right-left"></i></li>
+                <li><i id="drawBtn" class="fa-regular fa-square"></i></li>
+                <li><i id="moveBtn" class="fa-regular fa-hand"></i></li>
+                <li id="pencil"><i id="pencilBtn" class="fa-solid fa-pencil"></i>
+                    <div id="colorPencil" class="color">
+                        <label style="font-size: small; color: black;">Pencil size</label>
+                        <div id="range">
+                            
+                            <input type="range" id="pencilSize" min="1" max="20" value="2" />
+                            <div id="pencilSizeValue"> 2 </div>
+                        </div>
+
+                        <!-- other option -->
+                        <div class="brushPanel">
+                            <select id="brushType">
+                                <option value="pen">Pen</option>
+                                <option value="marker">Marker</option>
+                                <option value="highlighter">Highlighter</option>
+                            </select>
+
+                            <label style="font-size: small;">Smoothness</label>
+                            <div class="smoothpart">
+                                  <input type="range" id="smoothnessRange" min="0" max="100" value="50">
+                             <div id="smoothvalue" style="color: black;">0.5</div>
+                            </div>
+                            
+                        </div>
+
+
+                    </div>
+                </li>
+                <li id="eraseId"><i id="eraser" class="fa-solid fa-eraser"></i></li>
+                <li><input type="color" id="colorPicker" value="rgb(157, 213, 14)"></li>
+            </ul>
+
+        </div>
+        <div class="info">
+            <ul>
+                <li><button id="pdfBtn">Export PDF</button>
+                </li>
+                <li><a href="/about.html">About</a></li>
+            </ul>
+
+        </div>
+    </div>
+    <div id="board-container">
+        <canvas id="canvas"></canvas>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

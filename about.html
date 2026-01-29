@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>About</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); */
+      background-color: rgb(49, 47, 47);
+      color: white;
+    }
+
+    .contact-card {
+      width: 95%;
+      max-width: 1100px;
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(12px);
+      border-radius: 20px;
+      display: flex;
+      overflow: hidden;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.4);
+    }
+
+    .left {
+      flex: 1;
+      background-color: rgb(157, 213, 14);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 40px;
+      text-align: center;
+    }
+
+    .left img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid white;
+      margin-bottom: 20px;
+    }
+
+    .left h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .left p {
+      opacity: 0.9;
+    }
+
+    .right {
+      flex: 1.2;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .right h2 {
+      font-size: 30px;
+      margin-bottom: 25px;
+    }
+
+    .social-links {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    .social-links a {
+      text-decoration: none;
+      color: rgb(157, 213, 14);
+      padding: 15px 20px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 18px;
+      transition: 0.3s;
+      background: rgba(157, 213, 14, 0.1);
+    }
+
+    .social-links a i {
+      font-size: 22px;
+    }
+
+    .social-links a:hover {
+      transform: translateY(-4px) scale(1.02);
+      background: rgba(157, 213, 14, 0.2);
+    }
+
+    .github { background: #24292e33; }
+    .linkedin { background: #0a66c233; }
+    .instagram { background: #e1306c33; }
+    .gmail { background: #ea433533; }
+    .twitter { background: #1da1f233; }
+
+    @media (max-width: 768px) {
+      .contact-card {
+        flex-direction: column;
+      }
+
+      .social-links {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="contact-card">
+    <!-- LEFT SIDE -->
+    <div class="left">
+      <img src="./imagech.jpeg" alt="Gaurav">
+      <h1>Gaurav</h1>
+      <p>MCA Student | Developer</p>
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="right">
+      <h2>Contact Me</h2>
+
+      <div class="social-links">
+        <a class="github" href="https://github.com/gauravkumar2102" target="_blank">
+          <i class="fa-brands fa-github"></i> GitHub
+        </a>
+
+        <a class="linkedin" href="https://www.linkedin.com/in/gaurav-kumar-b7990b1aa/" target="_blank">
+          <i class="fa-brands fa-linkedin"></i> LinkedIn
+        </a>
+
+        <a class="instagram" href="https://www.instagram.com/mr_anshu_singh?igsh=MTBkbGxmMnZybWFjdw==" target="_blank">
+          <i class="fa-brands fa-instagram"></i> Instagram
+        </a>
+
+        <a class="gmail" href="mailto:gaurav.mca24.du@gmail.com">
+          <i class="fa-solid fa-envelope"></i> Gmail
+        </a>
+
+        <a class="twitter" href="https://twitter.com/yourprofile" target="_blank">
+          <i class="fa-brands fa-x-twitter"></i> Twitter (X)
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>

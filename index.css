@@ -1,0 +1,216 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: "Segoe UI", sans-serif;
+}
+
+
+#board-container {
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;          
+  background: #e5e5e5;
+}
+
+
+#canvas {
+  background: white;
+  width: 3000px;            
+  height: 3000px;
+  display: block;
+}
+
+.paint{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    /* flex-direction: column; */
+    align-items: center;
+    margin: auto;
+    /* width: 98vw;     */
+   
+
+}
+
+.option ul{
+    display: flex;
+    list-style: none;
+    
+    justify-content: center;
+    background-color:  rgb(157, 213, 14);
+    border-radius: 10px;
+    /* text-align: center; */
+    width: auto;
+    padding: 0px;
+
+}
+.option ul li{
+    padding: 10px;
+    margin: 2px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.option{
+    position: relative;
+}
+
+ .color {
+  position: absolute;
+  top: 48px;
+  right: 0px;
+  background: white;
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  /* display: flex; */
+  gap: 4px;
+  width: 165px;
+  display: none;
+}  
+
+#range{
+    display: flex;
+    gap: 4px;
+}
+
+.color div{
+    color: black;
+}
+
+.smoothpart{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+/* #pencil:hover .color{
+    display: flex;
+} */
+
+.color li{
+    width: 10px;
+    height: 10px;
+    margin: 3px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(32, 31, 31);
+}
+
+
+.move{
+    cursor:grab;
+}
+
+.penci{
+    /* cursor: url('pencil.cur'), auto;
+     */
+     cursor: crosshair;
+}
+
+.penc{
+    background-color: rgb(97, 95, 95);
+    border-radius: 900px;
+    margin: 2px 2px;
+    color: white;
+}
+.erase{
+    cursor: cell;
+}
+
+.listErase{
+    background-color: rgb(97, 95, 95);
+    border-radius: 900px;
+    margin: 2px 2px;
+    color: white;
+}
+
+.textCursor{
+    cursor: text;
+}
+
+.info ul{
+    display: flex;
+    list-style: none;
+    gap: 4px;
+    justify-content: center;
+    
+}
+
+
+
+.info ul li a{
+    padding: 10px;
+    margin: 2px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(157, 213, 14);
+    cursor: pointer;
+}
+
+#pdfBtn {
+    padding: 4px 9px;
+    font-size: 14px;
+    background-color: rgb(157, 213, 14);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:840px) {
+    .paint{
+    /* display: flex; */
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    }
+
+    .option ul{
+        flex-wrap: wrap;
+    }
+
+    .option ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:  rgb(157, 213, 14);
+    border-radius: 10px;
+    margin: 0px 15px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    padding: 0px;
+
+}
+
+.option ul li{
+    padding: 7px;
+    margin: 2px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.info ul li{
+    font-size: 16px;
+    padding: 0px 3px; 
+    margin: 0px;
+    cursor: pointer;
+}
+
+.info ul{
+    margin: 0px;
+    margin-bottom: 9px;
+    padding: 0px 15px;
+}
+    .paint h1{
+        display: none;
+    }
+
+    #pdfBtn{
+        font-size: 12px;
+        padding: 3px 9px;
+    }
+    
+}
+
