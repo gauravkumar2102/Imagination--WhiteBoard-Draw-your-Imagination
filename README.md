@@ -1,6 +1,6 @@
 ﻿# Imagination--WhiteBoard-Draw-your-Imagination, Online Whiteboard Application
 
-An advanced Online Whiteboard Web App built using HTML, CSS, and Vanilla JavaScript that allows users to draw, write, design, and manage content on an infinite-style canvas just like a real digital whiteboard.
+#An advanced Online Whiteboard Web App built using HTML, CSS, and Vanilla JavaScript that allows users to draw, write, design, and manage content on an infinite-style canvas just like a real digital whiteboard.
 
 
  
@@ -227,6 +227,7 @@ UI/UX
 State management
 
 Event handling
+
 
 
 
