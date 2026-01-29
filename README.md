@@ -169,7 +169,8 @@ jsPDF (for PDF export)
 
 
 
-(You can add screenshots here later)
+Image upload
+<img width="1919" height="872" alt="Screenshot 2026-01-29 160830" src="https://github.com/user-attachments/assets/ce8eca7c-611a-4fbd-b203-3fc0f9fbb25a" />
 
 📂 Project Structure
 /whiteboard-project
@@ -189,12 +190,12 @@ Start drawing 🎨
 🌟 Future Improvements
 
 Multi-page boards
-Zoom in / zoom out
+Zoom in / zoom out 
+
 Collaboration (multi-user)
+
 React version (planned)
 
-Image upload
-<img width="1919" height="872" alt="Screenshot 2026-01-29 160830" src="https://github.com/user-attachments/assets/ce8eca7c-611a-4fbd-b203-3fc0f9fbb25a" />
 
 👨‍💻 Author
 
@@ -226,4 +227,5 @@ UI/UX
 State management
 
 Event handling
+
 
