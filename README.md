@@ -4,6 +4,10 @@
 
 An advanced Online Whiteboard Web App built using HTML, CSS, and Vanilla JavaScript that allows users to draw, write, design, and manage content on an infinite-style canvas just like a real digital whiteboard.
 
+Image upload
+<img width="1919" height="872" alt="Screenshot 2026-01-29 160830" src="https://github.com/user-attachments/assets/ce8eca7c-611a-4fbd-b203-3fc0f9fbb25a" />
+
+
 🚀 Features
 ✏️ Drawing Tools
 
@@ -168,10 +172,6 @@ Canvas API
 jsPDF (for PDF export)
 
 
-
-Image upload
-<img width="1919" height="872" alt="Screenshot 2026-01-29 160830" src="https://github.com/user-attachments/assets/ce8eca7c-611a-4fbd-b203-3fc0f9fbb25a" />
-
 📂 Project Structure
 /whiteboard-project
  ├── index.html
@@ -227,5 +227,6 @@ UI/UX
 State management
 
 Event handling
+
 
 
