@@ -1,6 +1,8 @@
 ﻿# Imagination--WhiteBoard-Draw-your-Imagination, Online Whiteboard Application
 
  Whiteboard Web App built using HTML, CSS, and Vanilla JavaScript featuring freehand drawing, rectangle and circle tools, text typing, eraser, undo/redo, brush and color controls, clear canvas, and export as PDF functionality on an infinite-style canvas.
+
+ 
 Live Link: 
 
 https://imagination-drawing.netlify.app/
@@ -228,6 +230,7 @@ UI/UX
 State management
 
 Event handling
+
 
 
 
